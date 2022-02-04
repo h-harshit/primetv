@@ -1,0 +1,38 @@
+#ptv-navbar {
+  height: 4.6rem;
+  padding-top: 1.12rem;
+  padding-left: 3rem;
+  padding-bottom: 1.12rem;
+  padding-right: 3rem;
+  box-sizing: border-box;
+  background-color: #19242e;
+  display: flex;
+  flex-direction: row;
+}
+
+.ptv-logo-img #logo-img {
+  width: 7rem;
+  height: 2.15rem;
+}
+
+.ptv-navbar-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 0;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1rem;
+  padding-inline-start: 23px;
+}
+
+.ptv-navbar-main-element {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.065rem;
+  list-style: none;
+  color: white;
+}
