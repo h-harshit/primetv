@@ -36,3 +36,30 @@ ul {
   list-style: none;
   color: white;
 }
+
+.ptv-navbar-search {
+  margin-left: 16.3rem;
+}
+
+.ptv-navbar-account {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 1rem;
+}
+
+.ptv-navbar-account-img {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.ptv-navbar-account-name {
+  color: rgba(216, 208, 208, 0.753);
+  font-weight: 500;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  /* align-self: center; */
+}
