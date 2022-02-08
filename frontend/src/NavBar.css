@@ -35,10 +35,11 @@ ul {
   font-size: 1.065rem;
   list-style: none;
   color: white;
+  cursor: pointer;
 }
 
 .ptv-navbar-search {
-  margin-left: 16.3rem;
+  margin-left: 15rem;
 }
 
 .ptv-navbar-account {
@@ -62,4 +63,11 @@ ul {
   font-size: 1rem;
   font-family: "Roboto", sans-serif;
   /* align-self: center; */
+}
+
+.dropdown {
+  position: absolute;
+  top: 4.6rem;
+  width: 100%;
+  z-index: 205;
 }
